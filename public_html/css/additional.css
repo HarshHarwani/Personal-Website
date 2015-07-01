@@ -1,0 +1,177 @@
+ul.normallist {
+	list-style-type: disc;
+	margin-right: 30px;
+	text-align: justify;
+}
+
+ul.normallist_sublist {
+	list-style-type: circle;
+	margin-top: 10px;
+}
+
+.project_title {
+	font-weight: 900;
+	display: inline;
+	margin-bottom: 45px;
+	
+}
+
+/* The bars */
+.barlines_card:hover {
+	/*background-color: #b0b3fd;
+	color: #fff;*/
+	/*  text-shadow: -1px 1px 8px #000, 1px -1px 8px #000; */
+}
+
+.card_title {
+	font-stretch: slow;
+	font: 18px 'opensans-bold', sans-serif;
+   color: white;
+	text-transform: uppercase;
+   letter-spacing: 3px;
+	font-weight: normal;
+   position: relative;
+   text-align: center;
+}
+
+.barlines_card {
+/* 	display: flex; */
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	height: auto;
+	vertical-align: middle;
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .2);
+	padding: 20px 44px 0px 44px;
+	border: 1px solid #c0c0c0;
+	border-radius: 7px 7px 7px 7px;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+	background-color: #ffffff;
+}
+
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+   background: #1C69D0;
+   display: inline-block;
+   height: 32px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+.c50 {
+  	width: 50%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+.c60 {
+  	width: 60%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.c70 {
+  	width: 70%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.c80 {
+  	width: 80%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.c90 {
+  	width: 90%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+
+/* Moz */
+@-moz-keyframes c50 {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes c60 {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes c70 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes c80 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes c90 {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+
+/* Webkit */
+@-webkit-keyframes c50 {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes c60 {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes c70 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes c80 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes c90 {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+
+#education:before {
+    font-family: 'FontAwesome';
+    content: "\f08d";
+	padding-right: 20px;
+	font-size: 30px;
+   
+    text-align: left;
+    float: left;
+    color: #3B4886;
+}
+
+#work_title:before {
+    font-family: 'FontAwesome';
+    content: "\f0b1";
+	padding-right: 20px;
+	font-size: 30px;
+   
+    text-align: left;
+    float: left;
+    color: #3B4886;
+}
+
+#skills_title:before {
+    font-family: 'FontAwesome';
+    content: "\f0ad";
+	padding-right: 20px;
+	font-size: 30px;
+   
+    text-align: left;
+    float: left;
+    color: #fff;
+}
+
+.contact_form_line {
+	padding-left: 80px;
+}
